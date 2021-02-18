@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-image:url(https://hdqwalls.com/download/cyberpunk-neon-city-s0-1920x1080.jpg);
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    border: none;
+    border-radius: 30px;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5) ;
+    outline: none;
+    background-color: #fafafa;
+}
+.sign {
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    padding: 10px 75px;
+}
+
+#createButton {
+    border: 1px solid black;
+    background: #5900B2;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 15px 70px;
+    color: white;
+    
+}
+
+.withoutBorders {
+    border: none;
+    border-bottom: 2px solid silver;
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%
+}
+
+@media screen and (max-width: 600px) {
+    
+    body {
+        height: 190vw;
+        width: 95%;
+    }
+
+    .container {
+        padding: 30px 40px;
+    }
+  }
